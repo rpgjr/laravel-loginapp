@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    background: linear-gradient(black, black), url(bg-one.jpg) no-repeat center center fixed;
+    background-blend-mode: saturation;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y: hidden;
+} */
+
+body {
+    transition: 3s ease-in-out;
+}
+
+.layout-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+}
+
+.head-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.simple-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.simple-text a {
+    color: #01579b;
+    text-underline-offset: 2px;
+    font-weight: bold;
+}
+
+.auth-image {
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+
+.auth-image img {
+    object-fit: contain;
+    transition: .3s ease-in-out;
+}
+
+.auth-form {
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    transition: .3s ease-in-out;
+}
+
+.form-design {
+    margin-bottom: 5px;
+}
+
+.form-inputs {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.form-inputs label {
+    font-size: 14px;
+}
+
+.form-inputs input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.btn-submit {
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: .3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background: #01579b;
+    color: #ffffff;
+}
+
+.btn-logout {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn-logout:hover {
+    background: #000000;
+    color: #ffffff;
+}
