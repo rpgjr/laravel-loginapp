@@ -24,7 +24,6 @@
                             <button type="submit" class="btn-submit">Login</button>
                         </form>
                         <p class="simple-text">No account yet? Please register <a href="{{ route('register-page') }}">here.</a></p>
-                        <p class="simple-text"><a href="{{ route('forgot-password-page') }}">Forgot Password</a></p>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::controller(PagesController::class)->group(function() {
     Route::get('/', 'getLoginPage')->name('login-page')->middleware('guest');
     Route::get('/register', 'getRegisterPage')->name('register-page')->middleware('guest');
-    Route::get('/forgot-password', 'getForgotPasswordPage')->name('forgot-password-page')->middleware('guest');
     Route::get('/home', 'getDashboard')->name('dashboard')->middleware('auth');
 });
 

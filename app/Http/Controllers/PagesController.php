@@ -14,10 +14,6 @@ class PagesController extends Controller
         return view('Auth.register');
     }
 
-    public function getForgotPasswordPage() {
-        return view('Auth.forgot-password');
-    }
-
     public function getDashboard() {
         return view('dashboard');
     }
